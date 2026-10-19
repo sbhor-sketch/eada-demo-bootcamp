@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Ronald home logo</title>
+  <rect width="96" height="96" rx="25" fill="#356b4c"/>
+  <path d="M19 45 48 21l29 24v31H19Z" fill="#fffaf0"/>
+  <path d="m13 46 35-30 35 30-6 7-29-25-29 25Z" fill="#f1cf8b"/>
+  <path d="M39 76V57q0-10 9-10t9 10v19Z" fill="#c98d5c"/>
+  <path d="M25 51h12v12H25zm34 0h12v12H59z" fill="#c7dcd5"/>
+</svg>

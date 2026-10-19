@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "validation_rows": 292,
+  "results": [
+    {
+      "name": "Linear Regression",
+      "status": "ok",
+      "metrics": {
+        "mae": 20307.82711568056,
+        "rmse": 32221.111161495468,
+        "r2": 0.8646472162411227,
+        "rmsle": 0.19100877454912893
+      },
+      "seconds": 0.048712250019889325
+    },
+    {
+      "name": "Decision Tree",
+      "status": "ok",
+      "metrics": {
+        "mae": 27627.57236378923,
+        "rmse": 41499.36463963852,
+        "r2": 0.7754727479673583,
+        "rmsle": 0.2074831846807987
+      },
+      "seconds": 0.04164004197809845
+    },
+    {
+      "name": "Random Forest",
+      "status": "ok",
+      "metrics": {
+        "mae": 17297.82710198021,
+        "rmse": 28531.230543915823,
+        "r2": 0.8938726861984925,
+        "rmsle": 0.15219905913818724
+      },
+      "seconds": 0.23808675003238022
+    },
+    {
+      "name": "Neural Network (MLP)",
+      "status": "ok",
+      "metrics": {
+        "mae": 17864.77858298907,
+        "rmse": 28442.14114088955,
+        "r2": 0.8945344212453067,
+        "rmsle": 0.14620479435932981
+      },
+      "seconds": 0.2004462499753572
+    },
+    {
+      "name": "Extra Trees",
+      "status": "ok",
+      "metrics": {
+        "mae": 17783.79728940094,
+        "rmse": 28668.714991493125,
+        "r2": 0.8928474230348452,
+        "rmsle": 0.15910890732903804
+      },
+      "seconds": 0.22733841702574864
+    },
+    {
+      "name": "Hist Gradient Boosting",
+      "status": "ok",
+      "metrics": {
+        "mae": 16735.20857686798,
+        "rmse": 28773.38297578354,
+        "r2": 0.8920635778051581,
+        "rmsle": 0.14129351253969671
+      },
+      "seconds": 0.28794070798903704
+    },
+    {
+      "name": "XGBoost",
+      "status": "unavailable",
+      "note": "Not run: XGBoost could not load its native runtime (XGBoostError). Hist Gradient Boosting is included as a fast boosting alternative."
+    }
+  ]
+}
